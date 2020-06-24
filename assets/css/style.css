@@ -1,0 +1,52 @@
+body{
+background: #9CECFB; 
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); 
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); 
+height: 100vh;
+scroll-behavior: smooth;
+}
+
+div.bs-effect {
+	
+	background-image:url('./assets/image/1.png');
+}
+.login{
+	font-family: 'Ma Shan Zheng', cursive;
+	color: white;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.white{
+	color: white;
+}
+.spx{
+	margin-bottom: 15px;
+}
+.thank{
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 40px;
+}
+.card{
+	margin-left: auto;
+	margin-right: auto;
+}
+.loader_div{
+  position: absolute;
+  top: 70%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 99;
+  opacity:0.6;
+  display:none;
+  background: lightgrey url('../image/1.gif') center center no-repeat;
+  height: 100vh;
+  width: 100vh;
+}
